@@ -1,0 +1,108 @@
+{
+  "getTimeSlot": [
+    {
+      "id": 1,
+      "time_slots": "9AM",
+      "first_name": "",
+      "last_name": "",
+      "phone_number": "",
+      "updated_at": ""
+    },
+    {
+      "id": 2,
+      "time_slots": "10AM",
+      "first_name": "",
+      "last_name": "",
+      "phone_number": "",
+      "updated_at": ""
+    },
+    {
+      "id": 3,
+      "time_slots": "11AM",
+      "first_name": "",
+      "last_name": "",
+      "phone_number": "",
+      "updated_at": ""
+    },
+    {
+      "id": 4,
+      "time_slots": "12AM(midnight)",
+      "first_name": "",
+      "last_name": "",
+      "phone_number": "",
+      "updated_at": ""
+    },
+    {
+      "id": 5,
+      "time_slots": "1PM",
+      "first_name": "",
+      "last_name": "",
+      "phone_number": "",
+      "updated_at": ""
+    },
+    {
+      "id": 6,
+      "time_slots": "2PM",
+      "first_name": "",
+      "last_name": "",
+      "phone_number": "",
+      "updated_at": ""
+    },
+    {
+      "id": 7,
+      "time_slots": "3PM",
+      "first_name": "",
+      "last_name": "",
+      "phone_number": "",
+      "updated_at": ""
+    },
+    {
+      "id": 8,
+      "time_slots": "4PM",
+      "first_name": "",
+      "last_name": "",
+      "phone_number": "",
+      "updated_at": ""
+    },
+    {
+      "id": 9,
+      "time_slots": "5PM",
+      "first_name": "",
+      "last_name": "",
+      "phone_number": "",
+      "updated_at": ""
+    },
+    {
+      "id": 10,
+      "time_slots": "6PM",
+      "first_name": "",
+      "last_name": "",
+      "phone_number": "",
+      "updated_at": ""
+    },
+    {
+      "id": 11,
+      "time_slots": "7PM",
+      "first_name": "",
+      "last_name": "",
+      "phone_number": "",
+      "updated_at": ""
+    },
+    {
+      "id": 12,
+      "time_slots": "8PM",
+      "first_name": "",
+      "last_name": "",
+      "phone_number": "",
+      "updated_at": ""
+    },
+    {
+      "id": 13,
+      "time_slots": "9PM",
+      "first_name": "",
+      "last_name": "",
+      "phone_number": "",
+      "updated_at": ""
+    }
+  ]
+}

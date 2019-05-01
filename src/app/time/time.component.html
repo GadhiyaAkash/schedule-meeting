@@ -1,0 +1,56 @@
+<div class="col-sm-4">
+      <form class="text-center border border-light p-5" name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
+            <h2 *ngIf="time.updated_at">Edit Details</h2>
+            <h2 *ngIf="!time.updated_at">Add Details</h2>
+        <div class="form-group">
+          <div class="row">
+            <label>Enter First Name</label>
+            <input id="firstname" name="firstname" class="form-control" required [(ngModel)]="time.first_name" #firstname="ngModel"/>
+            <div *ngIf="firstname.invalid && (firstname.dirty || firstname.touched)" class="alert alert-danger">
+                  <div *ngIf="firstname.errors.required">
+                        First name is required.
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <label>Enter Last Name</label>
+            <input id="lastname" name="lastname" class="form-control" required [(ngModel)]="time.last_name" #lastname="ngModel"/>
+            <div *ngIf="lastname.invalid && (lastname.dirty || lastname.touched)" class="alert alert-danger">
+              <div *ngIf="lastname.errors.required">
+                Last name is required.
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="form-group">
+              <div class="row">
+                  <label>Enter phone number</label>
+                  <input id="number" name="number" class="form-control" required [(ngModel)]="time.phone_number" #number="ngModel"/>
+                  <div *ngIf="number.invalid && (number.dirty || number.touched)" class="alert alert-danger">
+                        <div *ngIf="number.errors.required">
+                              Phone number is required.
+                        </div>
+                  </div>
+              </div>
+            </div>
+            <div class="form-group">
+                  <button class="btn btn-danger btn-block-button mr-4 my-4" (click)="back()">Cancel</button>
+                  <button class="btn btn-danger btn-block-button mr-4 my-4" [disabled]="f.form.pristine || f.form.invalid">Save</button>
+            </div>
+      </form>
+</div>
+
+
+    <!-- Default form login -->
+<!-- <form class="col-sm-4 text-center border border-light p-5">
+    <p class="h4 mb-4">Sign in</p>
+
+    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+  <div>
+    <button class="btn btn-danger btn-block-button mr-4 my-4" type="submit">Cancel</button>
+  <button class="btn btn-success btn-block-button mr-4 my-4" type="submit">Save</button>  
+  </div>
+</form> -->

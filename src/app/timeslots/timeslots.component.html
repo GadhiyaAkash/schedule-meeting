@@ -1,0 +1,7 @@
+<ul class="times">
+      <li *ngFor="let time of timeslots; let i=index;"  routerLink="/time/{{time.id}}" [ngStyle]="{'background-color':time.updated_at == '' ? '' : 'red' }">
+        <a>
+          <span class="badge"> {{ time.time_slots }}</span>
+        </a>
+      </li>
+    </ul>
