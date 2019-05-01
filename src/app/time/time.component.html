@@ -1,4 +1,4 @@
-<div class="col-sm-4">
+<div class="offset-md-4 col-sm-4">
       <form class="text-center border border-light p-5" name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
             <h2 *ngIf="time.updated_at">Edit Details</h2>
             <h2 *ngIf="!time.updated_at">Add Details</h2>
